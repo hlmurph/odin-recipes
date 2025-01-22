@@ -22,11 +22,14 @@ p {
 }
 
 #home {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    display: block;
     background-color: lightgray;
     color: black;
     text-decoration: none;
     font-size: 32px;
-    display: inline-block;
     padding: 5px 15px;
     border: 3px solid black;
 }

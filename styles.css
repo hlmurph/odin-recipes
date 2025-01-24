@@ -1,3 +1,7 @@
+* {
+    background-color: darkgray;
+}
+
 h1 {
     background-color: black;
     color: white;
@@ -9,8 +13,10 @@ h2 {
 }
 
 a {
-    font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    background-color: gray;
 }
 
 p {
@@ -32,4 +38,16 @@ p {
     font-size: 32px;
     padding: 5px 15px;
     border: 3px solid black;
+}
+.links {
+    list-style: none;
+    background-color: gray;
+    margin: auto;
+    padding: 10px;
+    font-size: 32px;
+    display: inline;
+    border: solid 3px;
+}
+.link-container {
+    margin: 30px;
 }
